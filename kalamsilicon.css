@@ -108,7 +108,9 @@ header .nav a:last-of-type{
 
 header .identity{display: inline-block;float: left;margin-top: 4px;}
 
-header .identity img{width: 34px;border-radius: 50px;vertical-align: top;margin-right: 5px;border: 2px solid #545454;}
+header .identity img{width: 34px;border-radius: 50px;vertical-align: top;margin-right: 5px;
+	/*border: 2px solid #545454;*/
+}
 
 header .identity span{color: #fff;font-weight: bold;}
 
