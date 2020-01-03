@@ -61,7 +61,7 @@ header h3 a{
 }
 
 header h3 .bl{
-	background: #439CEC;
+	background: #2196F3;
 	border-radius: 5px;
 	color: #fff;
 	margin-left: 9px;
@@ -170,8 +170,8 @@ header .identity span{color: #fff;font-weight: bold;}
 
 .post p{
 	color: #a8a8a8;
-	font-size: 20px;
-	margin-top: 0;
+	font-size: 18px;
+	margin-top: 5px;
 }
 
 .post h5{
@@ -180,11 +180,10 @@ header .identity span{color: #fff;font-weight: bold;}
 }
 
 .post .title, .post .title a{
-	font-size: 32px;
+	font-size: 23px;
 	text-decoration: none;
 	color: #fff;
 	margin: 0;
-	margin-bottom: 20px;
 }
 .post .title a:hover{
 	/*border-bottom: 2px solid #e49de6;*/
@@ -212,16 +211,30 @@ header .identity span{color: #fff;font-weight: bold;}
 
 .date{
 	font-size: 15px;
-    vertical-align: initial;
-    font-weight: normal;
-    /*color: #8a8a07;*/
-    color: #656565;
-    padding-top: 3px;
-    width: 57px;
+	vertical-align: middle;
+	font-weight: normal;
+	color: #8a8a07;
+	/* color: #656565; */
+	position: relative;
+	height: 33px;
+	padding-top: 10px;
+	width: 108px;
+	text-align: left;
+	padding-left: 37px;
+	margin-left: 30px;
+	display: inline-block;
+	border-left: 1px dashed #656565;
+}
+
+.date span{
+	position: absolute;
+	left: 34px;
+	top: -6px;
 }
 
 .homepg .post{
-	padding-bottom: 30px;
+	padding-bottom: 25px;
+	margin-right: -146px;
 }
 
 
