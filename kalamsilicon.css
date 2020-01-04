@@ -8,7 +8,6 @@ html{
 }
 body{
 	margin: 0 auto;
-	width: 710px;
 	font-family: amiribold;
 	font-family: Amiri;
 	direction: rtl;
@@ -32,16 +31,22 @@ strong{
 }
 
 .content{
+	width: 700px;
+	/* width: 755px; */
+	margin: 0 auto;
 	padding-top: 49px;
 	color: #000;
 	color: #fff;
 	font-size: 40px;
 	font-weight: bold;
+	margin-top: 100px;
 }
 
 header{
 	position: relative;
 	margin-top: 37px;
+	width: 700px;
+	margin: 24px auto 30px;
 }
 
 header h3{
@@ -51,6 +56,7 @@ header h3{
 	/* color: #999; */
 	/* border-bottom: 7px solid #439cea; */
 	/* color: #439CEC; */
+	margin-top: -4px;
 	font-size: 29px;
 	display: inline-block;
 }
@@ -62,6 +68,8 @@ header h3 a{
 
 header h3 .bl{
 	background: #2196F3;
+	background: #5f00c7;
+	background: #0063f7;
 	border-radius: 5px;
 	color: #fff;
 	margin-left: 9px;
@@ -76,7 +84,7 @@ header h3 .bl{
 
 header h3 .blm{
 	position: absolute;
-    top: 4px;
+  top: 0px;
 }
 
 header .nav{
@@ -106,13 +114,39 @@ header .nav a:last-of-type{
 }
 
 
-header .identity{display: inline-block;float: left;margin-top: 4px;}
+header .identity{
+	display: inline-block;
+	float: left;
+	margin-top: 4px;
+	/* opacity: 0.2; */
+}
 
-header .identity img{width: 34px;border-radius: 50px;vertical-align: top;margin-right: 5px;
-	/*border: 2px solid #545454;*/
+header .identity:hover{
+	/* opacity: 1; */
+}
+
+header .identity img{
+	width: 34px;
+	border-radius: 50px;
+	vertical-align: top;
+	margin-right: 5px;
+	/* border: 3px solid #545454; */
 }
 
 header .identity span{color: #fff;font-weight: bold;}
+
+/* stupid, I know */
+.headerfooter{
+	height: 1px;
+	background: #000000d1;
+	position: absolute;
+	width: 100%;
+	left: 0;
+	top: 0;
+	height: 93px;
+	z-index: -1;
+	border-bottom: 0.5px solid #222;
+}
 
 .footer{
 	float: left;
@@ -162,7 +196,6 @@ header .identity span{color: #fff;font-weight: bold;}
 }
 
 
-
 .post{
 	padding-bottom: 100px;
 }
@@ -180,11 +213,23 @@ header .identity span{color: #fff;font-weight: bold;}
 }
 
 .post .title, .post .title a{
-	font-size: 32px;
+	/* font-size: 50px;
+	text-align: center;
 	text-decoration: none;
 	color: #fff;
-	margin: 0;
-	margin-bottom: 20px;
+	margin: 20px auto 40px; */
+
+
+	font-size: 69px;
+  text-align: center;
+	text-decoration: none;
+	color: #fff;
+	margin: 20px auto 40px;
+	position: absolute;
+	top: 33px;
+	z-index: -9;
+	width: 90%;
+	left: 5%;
 }
 .post .title a:hover{
 	/*border-bottom: 2px solid #e49de6;*/
@@ -216,7 +261,7 @@ header .identity span{color: #fff;font-weight: bold;}
 	font-weight: normal;
 	color: #8a8a07;
 	color: #a58100;
-	/* color: #656565; */
+	color: #c78100;
 	position: relative;
 	height: 33px;
 	padding-top: 10px;
@@ -225,23 +270,19 @@ header .identity span{color: #fff;font-weight: bold;}
 	padding-left: 37px;
 	margin-left: 30px;
 	display: inline-block;
-	border-left: 1px dashed #656565;
+	border-left: 1px dashed #333;
 }
 
-.date span{
+.date span:nth-child(2){
 	position: absolute;
 	left: 34px;
-	top: -6px;
+	top: -16px;
+	/* border: 1px solid; */
+  /* padding: 2px 10px 1px; */
+  /* border-radius: 4px; */
 }
 
 .homepg .post{
 	padding-bottom: 25px;
 	margin-right: -146px;
 }
-
-
-
-
-
-
-

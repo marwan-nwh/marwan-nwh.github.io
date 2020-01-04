@@ -8,14 +8,48 @@
 	<style>
 .post p{
 	color: #a8a8a8;
+	color: #999;
 	font-size: 18px;
 	margin-top: 5px;
 }
 .post .title, .post .title a{
-	font-size: 23px;
+	font-size: 27px;
 	text-decoration: none;
 	color: #fff;
 	margin: 0;
+	text-align: right;
+	position: relative;
+	width: auto;
+	top: initial;
+	left: initial;
+	z-index: initial;
+}
+
+.date .dot{
+	width: 5px;
+	height: 5px;
+	position: absolute;
+	background: #9051ff;
+	background: #de00cd;
+	border-radius: 50px;
+	left: -3px;
+	top: -9px;
+}
+header{
+	/* width: 952px; */
+}
+.content{
+	/* width: 830px; */
+	margin: 100px auto;
+}
+.headerfooter{
+	/* display: none; */
+}
+.psts{
+	font-size: 105px;
+    position: absolute;
+    top: 21px;
+    z-index: -9;
 }
 	</style>
 <script>
@@ -40,6 +74,7 @@
 		</a>
 	</div>
 </header>
+<div class="headerfooter"></div>
 <div class="content" style="margin-bottom: 100px;">
 	<!-- <div class="post">
 		<h3 class="title"><a href="./posts/knowledge.html">وظفنى لرفع مستوى فريقك العلمى</a></h3>	
@@ -58,11 +93,16 @@
 	</div>
 	 -->
 
+	 <div class="psts">
+		 تدوينات
+	 </div>
+
 	 <div class="post">
 			
 		<table>
 			<tr>
-				<td class="date">
+				<td class="date" style="margin-top: 31px;">
+					<span class="dot"></span>
 					<span>
 						يناير 2020
 					</span>
@@ -81,7 +121,8 @@
 			
 		<table>
 			<tr>
-				<td class="date">
+				<td class="date" style="margin-top: 22px;">
+					<span class="dot"></span>
 					<span>
 						سبتمبر 2018
 					</span>
@@ -103,7 +144,8 @@
 			
 		<table>
 			<tr>
-				<td class="date">
+				<td class="date" style="margin-top: 26px;">
+					<span class="dot"></span>
 					<span>
 						أغسطس 2018
 					</span>
@@ -124,7 +166,8 @@
 			
 		<table>
 			<tr>
-				<td class="date">
+				<td class="date" style="margin-top: 30px;">
+					<span class="dot"></span>
 					<span>
 						يونيو 2017
 					</span>
