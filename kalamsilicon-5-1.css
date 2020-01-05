@@ -39,7 +39,7 @@ strong{
 	color: #fff;
 	font-size: 40px;
 	font-weight: bold;
-	margin-top: 100px;
+	margin-top: 175px;
 }
 
 header{
@@ -226,7 +226,7 @@ header .identity span{color: #fff;font-weight: bold;}
 	color: #fff;
 	margin: 20px auto 40px;
 	position: absolute;
-	top: 33px;
+	top: 120px;
 	z-index: -9;
 	width: 90%;
 	left: 5%;
@@ -285,4 +285,28 @@ header .identity span{color: #fff;font-weight: bold;}
 .homepg .post{
 	padding-bottom: 25px;
 	margin-right: -146px;
+}
+
+.article_date{
+	margin: 0 auto 77px;
+	width: 400px;
+	text-align: center;
+	font-size: 22px;
+	color: #c78100;
+	height: 1px;
+	background: white;
+	background: -webkit-radial-gradient(white, black);
+	background: -o-radial-gradient(white, black);
+	background: -moz-radial-gradient(white, black);
+	background: radial-gradient(#adb0b7, black);
+	position: relative;
+}
+
+.article_date span{
+	position: absolute;
+	top: -20px;
+	left: calc(50% - 55px);
+	background: #000;
+	padding: 0 10px;
+	width: 110px;
 }
