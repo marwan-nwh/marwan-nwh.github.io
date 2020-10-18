@@ -126,11 +126,13 @@ header .identity:hover{
 }
 
 header .identity img{
-	width: 34px;
-	border-radius: 50px;
+	width: 42px;
+	border-radius: 50px 50px 15px 15px;
 	vertical-align: top;
 	margin-right: 5px;
-	/* border: 3px solid #545454; */
+	position: absolute;
+	top: -12px;
+	left: -50px;
 }
 
 header .identity span{color: #fff;font-weight: bold;}
@@ -270,7 +272,7 @@ header .identity span{color: #fff;font-weight: bold;}
 	padding-left: 37px;
 	margin-left: 30px;
 	display: inline-block;
-	border-left: 1px dashed #333;
+	border-left: 1px solid #333;
 }
 
 .date span:nth-child(2){
