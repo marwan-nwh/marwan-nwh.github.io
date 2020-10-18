@@ -312,3 +312,16 @@ header .identity span{color: #fff;font-weight: bold;}
 	padding: 0 10px;
 	width: 110px;
 }
+
+
+@media only screen and (max-width: 768px) {
+	.post p {
+		font-size: 45px;
+	}
+
+	.split {
+    width: 380px;
+    height: 3px;
+		margin: 119px auto;
+	}
+}
