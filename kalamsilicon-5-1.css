@@ -314,9 +314,96 @@ header .identity span{color: #fff;font-weight: bold;}
 }
 
 
-@media only screen and (max-width: 768px) {
+/* @media only screen and (max-width: 990px) {
+	header {
+    position: relative;
+    margin-top: 37px;
+    width: auto;
+    margin: 24px 30px 30px 100px;
+	}
+
+	header h3 {
+		font-size: 46px;
+	}
+
+	header h3 .bl {
+    background: #0063f7;
+    border-radius: 12px;
+    padding: 4px 9px 2px 8px;
+    line-height: 68px;
+    font-size: 42px;
+    width: 100px;
+	}
+
+	header .identity span {
+    font-size: 32px;
+	}
+
+	header .identity img {
+		width: 64px;
+    top: -15px;
+		left: -75px;
+	}
+
+	.headerfooter {
+    height: 125px;
+    z-index: -1;
+		border-bottom: 2.5px solid #222;
+	}
+
+	.psts {
+    font-size: 138px !important;
+    top: 34px !important;
+	}
+
+	.post .title, .post .title a {
+		font-size: 50px !important;
+	}
+
+	.content {
+    padding-top: 110px;
+	}
+
+	.post .title, .post .title a {
+    top: 175px;
+	}
+
 	.post p {
-		font-size: 45px;
+		font-size: 45px !important;
+	}
+
+	.en {
+    font-size: 36px;
+	}
+
+	.article_date {
+    margin: 0 auto 77px;
+    width: 611px;
+    font-size: 44px;
+    height: 3px;
+	}
+
+	.article_date span {
+    position: absolute;
+    top: -39px !important;
+    left: calc(50% - 125px);
+		padding: 0 10px;
+		font-size: 44px !important;
+    width: 250px;
+	}
+
+	.note{
+		font-size: 34px !important;
+		padding: 20px !important;
+	}
+
+	.caption{
+		font-size: 20px !important;
+	}
+
+	.note.en{
+		font-size: 20px !important;
+		line-height: 29px !important;
 	}
 
 	.split {
@@ -324,4 +411,4 @@ header .identity span{color: #fff;font-weight: bold;}
     height: 3px;
 		margin: 119px auto;
 	}
-}
+} */
