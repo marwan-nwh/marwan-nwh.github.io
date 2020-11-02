@@ -49,6 +49,62 @@ header{
 	margin: 24px auto 30px;
 }
 
+header .leftnav{
+	left: -66px;
+	position: absolute;
+	top: -2px;
+}
+
+header .links{
+	display: inline-block;
+	margin-top: 6px;
+	height: 34px;
+	float: left;
+	padding-right: 10px;
+	border-right: 1px solid #3f3942;
+}
+
+header .links a{
+	display: inline-block;
+	margin-right: 5px;
+}
+
+header .links svg{
+	fill: #fff;
+	opacity: 0.7;
+	transition: opacity 0.5s;
+	cursor: pointer;
+}
+
+header .links svg:hover{
+	opacity: 1 !important;
+}
+
+header .identity{
+	display: inline-block;
+	margin-top: 4px;
+	position: relative;
+	right: -60px;
+	/* opacity: 0.2; */
+}
+
+header .identity:hover{
+	/* opacity: 1; */
+}
+
+header .identity img{
+	width: 42px;
+	border-radius: 50px 50px 15px 15px;
+	vertical-align: top;
+	margin-right: 5px;
+	position: absolute;
+	top: -12px;
+	left: -50px;
+}
+
+header .identity span{color: #fff;font-weight: bold;}
+
+
 header h3{
 	/* font-family: amiribold; */
 	margin: 0;
@@ -112,30 +168,6 @@ header .nav a:hover, header .nav a.active{
 header .nav a:last-of-type{
 	margin-left: 0;
 }
-
-
-header .identity{
-	display: inline-block;
-	float: left;
-	margin-top: 4px;
-	/* opacity: 0.2; */
-}
-
-header .identity:hover{
-	/* opacity: 1; */
-}
-
-header .identity img{
-	width: 42px;
-	border-radius: 50px 50px 15px 15px;
-	vertical-align: top;
-	margin-right: 5px;
-	position: absolute;
-	top: -12px;
-	left: -50px;
-}
-
-header .identity span{color: #fff;font-weight: bold;}
 
 /* stupid, I know */
 .headerfooter{
